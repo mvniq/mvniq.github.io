@@ -80,7 +80,7 @@
   --bs-body-font-weight: 500;
   --bs-body-line-height: 1.6;
   --bs-body-color: #7e7e7e;
-  --bs-emphasis-color: #000;
+  --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(126, 126, 126, 0.75);
   --bs-secondary-color-rgb: 126, 126, 126;
@@ -92,7 +92,7 @@
   --bs-tertiary-bg-rgb: 248, 248, 248;
   --bs-body-bg: #fff;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-heading-color: #000;
+  --bs-heading-color: #fff;
   --bs-link-color: #000;
   --bs-link-color-rgb: 0, 0, 0;
   --bs-link-decoration: none;
@@ -115,7 +115,7 @@
   --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.075);
   --bs-box-shadow-lg: 0 1rem 3rem rgba(var(--bs-body-color-rgb), 0.175);
   --bs-box-shadow-inset: inset 0 1px 2px rgba(var(--bs-body-color-rgb), 0.075);
-  --bs-emphasis-color: #000;
+  --bs-emphasis-color: #fff;
   --bs-form-control-bg: var(--bs-body-bg);
   --bs-form-control-disabled-bg: var(--bs-secondary-bg);
   --bs-highlight-bg: #fff3cd;
@@ -5436,7 +5436,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: #fff;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
